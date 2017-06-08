@@ -1,0 +1,39 @@
+.winnerMsg {
+    padding: 10%;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    text-align:center;
+    top:70px;
+    left: 0
+}
+
+.kick {
+    margin-top: 50px;
+    color: blue
+}
+
+.numbers {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buttonsComponent {
+    border: 1px solid black;
+}
+
+button {
+    background-color: darken(lightgray, 10%);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    &:disabled {
+        background-color: darken(lightgray, 10%);
+        color: lighten(lightgray, 10%);
+        border: 1px solid lighten(black, 40%)
+    }
+}
